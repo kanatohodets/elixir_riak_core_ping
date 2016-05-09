@@ -1,0 +1,10 @@
+/_build
+/cover
+/deps
+erl_crash.dump
+*.ez
+*.log
+*ring_data_dir*
+log/*
+data/*
+data_*/*
