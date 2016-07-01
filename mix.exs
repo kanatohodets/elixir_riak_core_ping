@@ -29,8 +29,7 @@ defmodule Pingring.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:poolboy, "~> 0.8.1-p3", hex: :basho_poolboy},
-      {:riak_core, "~> 2.2", hex: :riak_core_ng}
+      {:riak_core, git: "https://github.com/project-fifo/riak_core.git", ref: "6c1096a86395aadfe04515a417e3b8c82b82e50c"}
     ]
   end
 end
