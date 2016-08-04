@@ -8,7 +8,7 @@ This app is complete iff you only need to distribute CPU time around your ring:
 for data purposes it is incomplete, as it lacks handoff or write/read
 coordination.
 
-See the [hashpup](https://github.com/kanatohodets/hashpub), but essentially:
+See the [hashpub](https://github.com/kanatohodets/hashpub), but essentially:
 
     mix deps.get
     MIX_ENV=dev_a iex --name dev_a@127.0.0.1 -S mix
