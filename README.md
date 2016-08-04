@@ -20,3 +20,6 @@ Potentially also a terminal for `dev_b`, and `dev_c` if you want a cluster, plus
 Just like in the hashpub README
 
 Feel free to open an issue if you run into trouble!
+
+At the moment Riak Core and its dependencies do not build under Erlang 19, so
+please stick to Elixir on top of Erlang 18 when playing with this.
